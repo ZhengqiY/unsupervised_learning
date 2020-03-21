@@ -13,3 +13,11 @@ relationship with RI. Therefore, the correlation matrix can tell us the relation
 feature.
 
 ![Mg feature density graph](https://github.com/ZhengqiY/unsupervised_learning/blob/master/DensityGraphMg.PNG)
+![Confusion Matrix](https://github.com/ZhengqiY/unsupervised_learning/blob/master/ConfusionMatrixGlassClassification.PNG)
+
+## Preprocess
+
+Since there are 9 features, the largest number of components that we can choose is 9. In
+order to reduce the dimensionality of the data, we set the number of components at 2. According
+to the evaluation section, PCA does not help the performance of the following algorithms and
+this dataset.
